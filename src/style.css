@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #0085F21A;
+}
+
+h1 {
+  color: blue;
+  font-size: 80px;
+  text-align: center;
+}
+
+label,
+input {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#numeroTarjeta {
+  width: 280px;
+  height: 13px;
+  font-size: 25px;
+  text-align: center;
+  color: blue;
+  border-radius: 10px;
+  background-color: antiquewhite;
+  border: 1px solid green;
+  padding: 10px;
+}
+
+.aviso {
+  font-size: 20px;
+  margin-left: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+#mensaje {
+  display: block;
+  color: deepskyblue;
+  font-size: 40px;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+}
+
+#revesNumeroTarjeta,
+#numEnmascarado {
+  color: blueviolet;
+  font-size: 30px;
+}
+
+button {
+  display: block;
+  width: 100px;
+  height: 30px;
+  background-color: #7bfccd;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+table {
+  border: 1px solid saddlebrown;
+  margin-left: 20px;
+  border-collapse: collapse;
+  position: fixed;
+  bottom: 0;
+}
+
+th,
+td {
+  border: 1px solid saddlebrown;
+  padding: 4px;
+}
+
+table th {
+  background-color: orange;
+}
+
+table td {
+  background-color: rgb(252, 240, 222);
+}
+
+.digitosBanco {
+  text-align: center;
+}

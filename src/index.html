@@ -1,14 +1,56 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <h1>Cajero Cash</h1>
+
+    <label>Digite su Numero de Tarjeta: </label>
+    <input type="text" id="numeroTarjeta" maxlength="16" autofocus> <br />
+
+    <label class="aviso">Numero Tarjeta Enmascarado: </label>
+    <p><span id="numEnmascarado"></span></p><br />
+
+    <label class="aviso">Numero de la Tarjeta al reves: </label>
+    <p><span id="revesNumeroTarjeta"></span></p><br /><br />
+
+    <button id="botonVerificar">Verificar</button>
+
+    <p id="mensaje"></p>
+
+    <table>
+      <tr>
+        <th>Tarjeta de Crédito</th>
+        <th>Número</th>
+      </tr>
+      <tr>
+        <td>American Express</td>
+        <td class="digitosBanco">3437</td>
+      </tr>
+      <tr>
+        <td>Master Card</td>
+        <td class="digitosBanco">6011</td>
+      </tr>
+      <tr>
+        <td>Diners Club</td>
+        <td class="digitosBanco">2131</td>
+      </tr>
+      <tr>
+        <td>JCB</td>
+        <td class="digitosBanco">1800</td>
+      </tr>
+    </table>
+
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
